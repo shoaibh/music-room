@@ -1,0 +1,13 @@
+.song-details{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 10px;
+  img{
+    border-radius: 10px;
+  }
+  .author-details{
+    display: block;
+    padding-left: 10px;
+  }
+}

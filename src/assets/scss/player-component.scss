@@ -1,0 +1,49 @@
+.player-component{
+  .rhap_container{
+    background-color: inherit;
+    box-shadow: none;
+    width: 88%;
+    margin: auto;
+    padding: 0;
+    .rhap_stacked{
+      .rhap_progress-section{
+        .rhap_time{
+          color: black;
+        }
+        .rhap_progress-container{
+          .rhap_progress-bar-show-download{
+            background-color: black;
+            height: 2px;
+            .rhap_progress-indicator{
+              width: 10px;
+              height: 10px;
+              top: -4px;
+              background-color: black;
+            }
+            .rhap_progress-filled{
+              background-color: black;
+            }
+            .rhap_download-progress{
+              background-color: black;
+            }
+          }
+        }
+      }
+
+      .rhap_controls-section{
+        justify-content: center;
+        .rhap_additional-controls{
+          display: none;
+        }
+        .rhap_volume-controls{
+          display: none;
+        }
+        .rhap_main-controls{
+          .rhap_button-clear{
+            color: black;
+          }
+        }
+      }
+    }
+  }
+}

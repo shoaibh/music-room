@@ -1,0 +1,54 @@
+.create-room{
+  position: fixed;
+  bottom: 100px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: auto;
+  z-index: 99;
+  .form{
+    border: 1px solid black;
+    padding: 40px;
+    position: relative;
+    z-index: 99;
+    background-color: white;
+    .plus{
+      border:none;
+      background-color: white;
+      font-size: 25px;
+      cursor: pointer;
+
+    }
+    .cross{
+      position: absolute;
+      border:none;
+      background-color: white;
+      top: 0;
+      right: 5px;
+      cursor: pointer;
+
+    }
+  }
+  .create{
+    cursor: pointer;
+    background-color: black;
+    border: 1px solid black;
+    padding: 10px 15px;
+    color: white;
+    font-size: 18px;
+  }
+}
+
+.room{
+  padding: 20px;
+  width: 100%;
+  margin: 20px auto;
+  border-radius: 15px;
+  color: black;
+  .author{
+    color: #7B7C7C;
+  }
+  .name{
+    text-align: left;
+    font-size: 18px;
+  }
+}

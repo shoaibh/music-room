@@ -1,0 +1,107 @@
+
+
+.sign-up-form{
+  div{
+    margin-bottom: 10px;
+  }
+}
+
+.login-container {
+  height: 100vh;
+  width: 100%;
+}
+
+.has-error, .ant-form-explain {
+  p {
+    color: #fa3a0a !important;
+  }
+}
+
+.login-button{
+  padding: 10px;
+  width: 120px;
+  height: 43px;
+  color: #565757;
+  span{
+    font-size: 17px;
+  }
+  &:hover{
+    color: black;
+    border-color: black;
+  }
+}
+
+.sign-up-button{
+  color: #7d8282;
+  &:hover{
+    color: black;
+  }
+}
+
+.email-input{
+  padding: 10px;
+  &:hover{
+    border-color: #585959;
+  }
+  &:focus{
+    border-color: #585959 !important;
+    box-shadow: none;
+  }
+}
+.password-input{
+  padding: 10px;
+  &:focus {
+    border-color: #585959 !important;
+    box-shadow: none;
+  }
+  &:hover{
+    border-color: #585959;
+  }
+}
+
+.name-input{
+  padding: 10px;
+  &:hover{
+    border-color: #585959;
+  }
+  &:focus{
+    border-color: #585959 !important;
+    box-shadow: none;
+  }
+}
+.role-input {
+  min-width: 312px;
+  margin-bottom: 0px !important;
+  text-align: left;
+  &:hover{
+    border-color: #585959;
+  }
+  &:focus{
+    border-color: #585959 !important;
+    box-shadow: none;
+  }
+
+  .ant-select-selection-placeholder{
+    padding-top: 3px !important;
+  }
+  .ant-select-selection-item{
+    padding-top: 3px !important;
+  }
+  div {
+    min-height: 40px;
+    margin-bottom: 0px !important;
+  }
+
+}
+
+
+.back-error-container {
+  margin: 100px auto;
+  padding: 40px 30px;
+  border: 1px solid #7d8282;
+  border-radius: 4px;
+}
+
+.demo-loadmore-list {
+  min-height: 350px;
+}

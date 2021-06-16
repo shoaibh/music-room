@@ -1,0 +1,14 @@
+.search-result-container{
+  display: flex;
+  cursor: pointer;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px 0;
+  img{
+    border-radius: 10px;
+
+  }
+  .song-detail{
+    display: block;
+  }
+}
